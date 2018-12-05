@@ -1,0 +1,94 @@
+body{
+ margin: 0;
+ padding: 9vh 0 0 0;
+}
+
+nav {
+  background-color: rgba(171, 194, 181, 0.78);
+  height: 9vh;
+  padding: 0 4vw;
+  color: rgb(38, 84, 117);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+
+}
+
+
+nav div {
+  display: inline-block;
+}
+
+
+nav div a {
+  text-decoration: none;
+  padding-left: 1.5vw;
+}
+/* nav div button {
+  padding-left: 0.6vw;
+  border-radius: 5px;
+} */
+
+/* nav div button:hover {
+  background-color: rgb(38, 84, 117);
+  color: snow;
+} */
+
+.dropdownlink {
+  color: orange
+}
+
+.innerdropdown {
+  background-color: rgb(135, 102, 204)
+}
+
+
+h1 {
+  margin: 0;
+  color: rgb(38, 84, 117);
+  font-size: 5vw;
+
+}
+
+h4 {
+  margin: 0;
+}
+
+footer {
+  height: 9vh;
+  background-color: rgba(171, 194, 181, 0.78);
+  color: rgb(38, 84, 117);
+  padding-top: 4vh;
+  padding-left: 40vw;
+}
+
+#topDiv {
+  background-image: url("https://images.unsplash.com/photo-1517191434949-5e90cd67d2b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+  height: 40vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#middleDiv img {
+  width: 20vw;
+  /* border: 3px solid black;
+  border-radius: 50%; */
+
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .centerNavContent {
+  margin-right: 28vw;
+} */
